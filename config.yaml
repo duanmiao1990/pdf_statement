@@ -1,0 +1,42 @@
+# file name
+file: pdf/credit/October 2021 e-Statement.pdf
+
+# regular deposits
+deposit:
+  - Payroll
+  - Deposit
+  - MB-Transfer from
+  - EI
+
+# regular withdraw
+withdraw:
+  - withdrawal
+  - payment
+  - bill
+  - Mortgage
+  - purchase
+  - loans
+  - MB-Transfer to
+
+# groups for credit expenses includes credit card repayment
+credit_categories:
+  Amazon:
+    - Amazon
+  Takeout:
+    - FANTUAN
+    - DOORDASH
+    - STARBUCKS
+    - Subway
+    - TIM HORTONS
+    - THE BAGEL STOP
+    - MEGA WRAPS
+  Grocery:
+    - instacart
+    - T&T
+  Education:
+    - MEDIUM CORP
+  Taobao:
+    - Taobao
+  Credit: # has to be the last group to avoid overwritten by previous defined groups
+    - '9685'
+    - credit
